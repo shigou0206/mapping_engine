@@ -1,0 +1,64 @@
+########################
+# Rust / Cargo
+########################
+# Cargo 构建目录
+/target/
+
+# 二进制可执行文件（可选，如果你在根下跑 cargo build --release）
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Cargo.lock（库 crate 可考虑忽略；二进制项目则通常提交）
+# Cargo.lock
+
+########################
+# 编辑器 / IDE
+########################
+# VS Code
+.vscode/
+/*.code-workspace
+
+# CLion / IntelliJ
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+
+########################
+# 操作系统
+########################
+.DS_Store
+Thumbs.db
+
+########################
+# Tests / Examples artefacts
+########################
+# 用例生成的 tar.gz、json、yaml 快照
+examples/**/*.tar.gz
+examples/**/*.tgz
+examples/**/*.zip
+examples/**/*_output.json
+examples/**/*_actual.json
+
+########################
+# Logs / debug
+########################
+*.log
+*.trace
+*.bak
+
+########################
+# Misc
+########################
+# byebug / gdb
+*.rlib
+*.dSYM/
+*.pdb
