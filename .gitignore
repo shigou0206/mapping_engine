@@ -45,8 +45,8 @@ Thumbs.db
 examples/**/*.tar.gz
 examples/**/*.tgz
 examples/**/*.zip
-examples/**/*_output.json
-examples/**/*_actual.json
+# examples/**/*_output.json
+# examples/**/*_actual.json
 
 ########################
 # Logs / debug
